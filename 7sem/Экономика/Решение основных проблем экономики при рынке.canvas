@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"135c980c50089e4e","type":"text","text":"Рынок факторов производства","x":-140,"y":200,"width":250,"height":60},
+		{"id":"253d38f14d0a8593","type":"text","text":"Рынок товаров и услуг","x":-140,"y":-300,"width":250,"height":60},
+		{"id":"a80e63ea29984a17","type":"text","text":"Общество, домохозяйства","x":-500,"y":-40,"width":250,"height":60},
+		{"id":"c0585c8264551c29","type":"text","text":"Торговля и промышленность","x":180,"y":-40,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"4b86965127f2cf66","fromNode":"a80e63ea29984a17","fromSide":"top","toNode":"253d38f14d0a8593","toSide":"left","label":"спрос на товары и услуги"},
+		{"id":"d82dd3f8d97303e7","fromNode":"a80e63ea29984a17","fromSide":"bottom","toNode":"135c980c50089e4e","toSide":"left","label":"Факторы производства"},
+		{"id":"1f8a68bb148f36cc","fromNode":"c0585c8264551c29","fromSide":"bottom","toNode":"135c980c50089e4e","toSide":"right","label":"Спрос на факторы производства"},
+		{"id":"0bd8071204af94fc","fromNode":"c0585c8264551c29","fromSide":"top","toNode":"253d38f14d0a8593","toSide":"right","label":"товары и услуги"}
+	]
+}

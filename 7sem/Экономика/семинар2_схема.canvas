@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"d3b599857a6cd1c0","x":-540,"y":-100,"width":250,"height":60,"type":"text","text":"Командная экономика"},
+		{"id":"0f9f367d699706ce","x":360,"y":-100,"width":250,"height":60,"type":"text","text":"Рыночная экономика"},
+		{"id":"a9fe082f5f3c5b94","x":-540,"y":20,"width":250,"height":220,"type":"text","text":"Характеристики:\n1) Гос собственность\n2) Плановое производство\n3) Плановое распределение"},
+		{"id":"114a988d08be6113","x":-100,"y":-100,"width":250,"height":60,"type":"text","text":"Смешанная экономика"},
+		{"id":"67586b76a1d622b9","x":343,"y":30,"width":285,"height":230,"type":"text","text":"Характеристики:\n1) частная собственность\n2) Ценовой механизм\n3) Ограниченная роль государства в экономике"},
+		{"id":"3c00f70e8060d08f","x":-194,"y":360,"width":439,"height":60,"type":"text","text":"Характеризуется различными способами решения основных экономических проблем"},
+		{"id":"b53859787211f3d4","x":-100,"y":40,"width":250,"height":130,"type":"text","text":"Сочетает в себе характеристику командной и рыночной экономик"}
+	],
+	"edges":[
+		{"id":"689a330f1843024e","fromNode":"d3b599857a6cd1c0","fromSide":"bottom","toNode":"a9fe082f5f3c5b94","toSide":"top"},
+		{"id":"66854f13ee094335","fromNode":"0f9f367d699706ce","fromSide":"bottom","toNode":"67586b76a1d622b9","toSide":"top"},
+		{"id":"250b55f9041e05fb","fromNode":"114a988d08be6113","fromSide":"bottom","toNode":"b53859787211f3d4","toSide":"top"},
+		{"id":"dee98c70016349f6","fromNode":"b53859787211f3d4","fromSide":"left","toNode":"a9fe082f5f3c5b94","toSide":"right","color":"2"},
+		{"id":"a469aedf4d625f4f","fromNode":"b53859787211f3d4","fromSide":"right","toNode":"67586b76a1d622b9","toSide":"left","color":"2"},
+		{"id":"7b89bbb252403806","fromNode":"3c00f70e8060d08f","fromSide":"left","toNode":"a9fe082f5f3c5b94","toSide":"bottom"},
+		{"id":"457cd05b87c6bfb9","fromNode":"3c00f70e8060d08f","fromSide":"top","toNode":"b53859787211f3d4","toSide":"bottom"},
+		{"id":"0c0fb3d7e56f3753","fromNode":"3c00f70e8060d08f","fromSide":"right","toNode":"67586b76a1d622b9","toSide":"bottom"}
+	]
+}

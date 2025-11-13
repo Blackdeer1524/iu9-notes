@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"16464ba5dc7433d0","x":-120,"y":180,"width":250,"height":60,"type":"text","text":"Рынок факторов производства "},
+		{"id":"e67de8a76e1c8de7","x":-120,"y":-260,"width":250,"height":60,"type":"text","text":"Рынок товаров и услуг"},
+		{"id":"e117201ce389d74e","x":200,"y":-120,"width":250,"height":60,"type":"text","text":"Фирмы"},
+		{"id":"d1fcfdc39fad2ce6","x":-460,"y":-120,"width":250,"height":60,"type":"text","text":"Домохозяйства"}
+	],
+	"edges":[
+		{"id":"24aeee474e8ce76e","fromNode":"d1fcfdc39fad2ce6","fromSide":"right","toNode":"e67de8a76e1c8de7","toSide":"bottom","label":"рассходы домохозяйств"},
+		{"id":"cbc5cf7fe764404d","fromNode":"e67de8a76e1c8de7","fromSide":"bottom","toNode":"e117201ce389d74e","toSide":"left"},
+		{"id":"b5f4b621ba38e35d","fromNode":"e67de8a76e1c8de7","fromSide":"left","toNode":"d1fcfdc39fad2ce6","toSide":"top","label":"товары и услуги"},
+		{"id":"c5590fdea70ce4a5","fromNode":"e117201ce389d74e","fromSide":"top","toNode":"e67de8a76e1c8de7","toSide":"right","label":"товары и услуги"},
+		{"id":"e09d6292603c767a","fromNode":"16464ba5dc7433d0","fromSide":"top","toNode":"d1fcfdc39fad2ce6","toSide":"bottom","label":"доходы домохозяйств"},
+		{"id":"6f77dfbd9abec49f","fromNode":"e117201ce389d74e","fromSide":"bottom","toNode":"16464ba5dc7433d0","toSide":"top"},
+		{"id":"1553e5275ef4b935","fromNode":"d1fcfdc39fad2ce6","fromSide":"bottom","toNode":"16464ba5dc7433d0","toSide":"left","label":"услуги и факторы производства"},
+		{"id":"ad18fbd4ea62d3f2","fromNode":"16464ba5dc7433d0","fromSide":"right","toNode":"e117201ce389d74e","toSide":"bottom","label":"услуги и факторы производства"}
+	]
+}

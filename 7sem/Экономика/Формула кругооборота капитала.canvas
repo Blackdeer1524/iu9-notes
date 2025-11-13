@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"dcc1541c49758450","type":"text","text":"Т - товарная форма первоначального капитала. Сырье, материал, найм рабочих, рента и прочее","x":-260,"y":-80,"width":250,"height":160},
+		{"id":"40578c05ba607bda","type":"text","text":"Рс - необходимая рабочая сила. Входит в средства производства.","x":-65,"y":120,"width":250,"height":100},
+		{"id":"3e122962adf52f8e","type":"text","text":"Тсп - купленные средства производства","x":-65,"y":-180,"width":250,"height":60},
+		{"id":"59227c9787ec2ae7","type":"text","text":"П - Производственный капитал. То, что задействовано в производственном процессе.","x":60,"y":-80,"width":250,"height":160},
+		{"id":"686866d6e6d7697a","type":"text","text":"$Д'(Д + \\Delta Д)$  - денежная форма капитала полученные от реализации товарного капитала $T'$","x":700,"y":-80,"width":250,"height":160},
+		{"id":"f2b492c2a1da22fe","type":"text","text":"Д - денежный первоначально инвестированный капитал. ","x":-580,"y":-80,"width":250,"height":160},
+		{"id":"dd2fa6e43db85b22","type":"text","text":"$T'$ - товарный капитал, продукт данного производства. Продукция на складе готовой продукции.","x":380,"y":-80,"width":250,"height":160}
+	],
+	"edges":[
+		{"id":"ea14587a00cecc81","fromNode":"f2b492c2a1da22fe","fromSide":"right","toNode":"dcc1541c49758450","toSide":"left"},
+		{"id":"34fc6fbecb965e4e","fromNode":"dcc1541c49758450","fromSide":"right","toNode":"59227c9787ec2ae7","toSide":"left"},
+		{"id":"4b3003b9ba5bda8b","fromNode":"59227c9787ec2ae7","fromSide":"right","toNode":"dd2fa6e43db85b22","toSide":"left"},
+		{"id":"54c1994aa8f5303e","fromNode":"dcc1541c49758450","fromSide":"top","toNode":"3e122962adf52f8e","toSide":"left"},
+		{"id":"4773950693734aec","fromNode":"dcc1541c49758450","fromSide":"bottom","toNode":"40578c05ba607bda","toSide":"left"},
+		{"id":"967c3e642e99da7b","fromNode":"dd2fa6e43db85b22","fromSide":"right","toNode":"686866d6e6d7697a","toSide":"left"}
+	]
+}
